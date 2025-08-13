@@ -55,8 +55,6 @@ function sortearAmigo() { //Funcion Sortear Amigos
   // Eliminar el amigo sorteado del array de restantes.
   //*Activar para evitar repetir amigos en el sorteo
   amigosRestantes.splice(indiceAleatorio, 1);
-  
-  limpiarEntrada(); // Limpiar el campo de texto
 
   alert("El amigo secreto seleccionado es: " + amigoSeleccionado);
   //*Activar para reiniciar el sorteo desde 0, una vez este seleccionado un amigo
@@ -70,6 +68,7 @@ function reiniciarLista() {
   listadoDeAmigos.innerHTML = ""; // Limpiar visualmente la lista
   limpiarEntrada();           // Limpiar campo de texto
 }
+
 
 
 
